@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/winflag/winflag-api', '-f', 'backend/src/Winflag.API/Dockerfile', '.']
+images:
+  - 'gcr.io/winflag/winflag-api'

@@ -9,18 +9,18 @@ import type { GalleryItem } from '../types';
 const OCCASIONS = ['All', 'Political', 'Sports', 'National', 'Corporate', 'Cultural'];
 
 const DEFAULT_GALLERY: GalleryItem[] = [
-  { id: 'g1', imageUrl: '/images/5.jpg', title: 'IPL 2024 Fan Zone Flags', occasion: 'Sports', createdAt: '' },
-  { id: 'g2', imageUrl: '/images/11.jpg', title: 'FIFA World Cup Flags', occasion: 'Sports', createdAt: '' },
-  { id: 'g3', imageUrl: '/images/6.jpg', title: 'G20 Summit – National Flags', occasion: 'National', createdAt: '' },
-  { id: 'g4', imageUrl: '/images/13.png', title: 'CSK Cricket Fan Flags', occasion: 'Sports', createdAt: '' },
-  { id: 'g5', imageUrl: '/images/14.png', title: 'IPL Team Flags – MI', occasion: 'Sports', createdAt: '' },
-  { id: 'g6', imageUrl: '/images/15.png', title: 'RCB Sports Flags', occasion: 'Sports', createdAt: '' },
-  { id: 'g7', imageUrl: '/images/9.jpg', title: 'Political Rally Flags', occasion: 'Political', createdAt: '' },
-  { id: 'g8', imageUrl: '/images/10.jpg', title: 'Corporate Event Branding', occasion: 'Corporate', createdAt: '' },
-  { id: 'g9', imageUrl: '/images/8.jpg', title: 'Cultural Festival Flags', occasion: 'Cultural', createdAt: '' },
-  { id: 'g10', imageUrl: '/images/16.png', title: 'KKR IPL Flags', occasion: 'Sports', createdAt: '' },
-  { id: 'g11', imageUrl: '/images/17.png', title: 'PBKS Fan Flags', occasion: 'Sports', createdAt: '' },
-  { id: 'g12', imageUrl: '/images/3.jpg', title: 'Indian National Flag', occasion: 'National', createdAt: '' },
+  { id: 'g1', imageUrl: '/images/5.jpg', title: 'IPL 2024 Fan Zone Flags', occasion: 'Sports', createdAt: '', isActive: true },
+  { id: 'g2', imageUrl: '/images/11.jpg', title: 'FIFA World Cup Flags', occasion: 'Sports', createdAt: '', isActive: true },
+  { id: 'g3', imageUrl: '/images/6.jpg', title: 'G20 Summit – National Flags', occasion: 'National', createdAt: '', isActive: true },
+  { id: 'g4', imageUrl: '/images/13.png', title: 'CSK Cricket Fan Flags', occasion: 'Sports', createdAt: '', isActive: true },
+  { id: 'g5', imageUrl: '/images/14.png', title: 'IPL Team Flags – MI', occasion: 'Sports', createdAt: '', isActive: true },
+  { id: 'g6', imageUrl: '/images/15.png', title: 'RCB Sports Flags', occasion: 'Sports', createdAt: '', isActive: true },
+  { id: 'g7', imageUrl: '/images/9.jpg', title: 'Political Rally Flags', occasion: 'Political', createdAt: '', isActive: true },
+  { id: 'g8', imageUrl: '/images/10.jpg', title: 'Corporate Event Branding', occasion: 'Corporate', createdAt: '', isActive: true },
+  { id: 'g9', imageUrl: '/images/8.jpg', title: 'Cultural Festival Flags', occasion: 'Cultural', createdAt: '', isActive: true },
+  { id: 'g10', imageUrl: '/images/16.png', title: 'KKR IPL Flags', occasion: 'Sports', createdAt: '', isActive: true },
+  { id: 'g11', imageUrl: '/images/17.png', title: 'PBKS Fan Flags', occasion: 'Sports', createdAt: '', isActive: true },
+  { id: 'g12', imageUrl: '/images/3.jpg', title: 'Indian National Flag', occasion: 'National', createdAt: '', isActive: true },
 ];
 
 function Lightbox({
