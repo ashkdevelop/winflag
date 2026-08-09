@@ -1,0 +1,9 @@
+﻿<Solution>
+  <Folder Name="/backend/" />
+  <Folder Name="/backend/src/">
+    <Project Path="backend/src/Winflag.API/Winflag.API.csproj" />
+    <Project Path="backend/src/Winflag.Application/Winflag.Application.csproj" />
+    <Project Path="backend/src/Winflag.Core/Winflag.Core.csproj" />
+    <Project Path="backend/src/Winflag.Infrastructure/Winflag.Infrastructure.csproj" />
+  </Folder>
+</Solution>
